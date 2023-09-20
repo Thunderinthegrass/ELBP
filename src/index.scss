@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background: #efefef;
+  background: #f4f1de;
+  // color: #0B090A;
+  // color: #564D4A;
+  color: #4a4f56;
+  // color: #3D405B;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}

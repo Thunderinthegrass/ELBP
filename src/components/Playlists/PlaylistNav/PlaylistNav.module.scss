@@ -1,0 +1,26 @@
+.navWrapper{
+  width: calc(100vw - 100px);
+}
+.nav{
+  display: flex;
+  padding: 8px 20px 2px 2px;
+  color: #ffffff;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: pointer;
+  &::-webkit-scrollbar {
+    border-radius: 10px/100%;
+    height: 7px;
+    background: #ff840085;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #ecf0f1;
+    border-radius: 10px;
+    cursor: pointer;
+    width:15px;
+    height: 25px;
+    -webkit-appearance: none;
+    background: #ff8400;
+  }
+}

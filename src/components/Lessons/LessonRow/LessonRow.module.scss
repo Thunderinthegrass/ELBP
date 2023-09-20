@@ -1,0 +1,12 @@
+.listItem{
+  // border: 1px solid #B1A7A6;
+  display: flex;
+  gap: 1px;
+  border-radius: 3px;
+  span{
+    flex: 1;
+    background: #ffffff;
+    padding: 8px 0;
+    font-weight: 500;
+  }
+}
