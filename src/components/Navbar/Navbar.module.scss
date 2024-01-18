@@ -1,18 +1,17 @@
 .navBar{
-  width: 100px;
-  height: 100vh;
+  padding: 0 10px;
   // background: #0B090A;
   // background: #5B2333;
-  background: #3D405B;
-  padding-top: 20px;
+  // background: #3D405B;//синий
   flex-shrink: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 10;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navList{
   list-style: none;
   display: flex;
-  flex-direction: column;
+  gap: 50px;
 }

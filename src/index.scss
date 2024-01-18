@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Inter-accent';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // background: #efefef;
@@ -14,6 +15,7 @@ body {
   // color: #564D4A;
   color: #4a4f56;
   // color: #3D405B;
+  font-weight: 600;
 }
 li{
   list-style: none;
@@ -24,9 +26,4 @@ a{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.container{
-  max-width: 1140px;
-  width: 100%;
-  margin: 0 auto;
 }

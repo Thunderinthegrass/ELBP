@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Inter-accent";
+  src: url(/fonts/Inter-accent.woff);
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -30,8 +38,16 @@
 .app-wrapper{
   display: flex;
 }
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 15px;
+}
 .app-content{
   flex: 1;
+  padding-bottom: 80px;
 }
 
 @keyframes App-logo-spin {

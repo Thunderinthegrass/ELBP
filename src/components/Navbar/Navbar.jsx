@@ -7,7 +7,7 @@ const Navbar = (props) => {
       <ul className={classes.navList}>
         <NavbarItem link="/orange" content="Orange"/>
         <NavbarItem link="/Lesson1" content="Lesson1"/>
-        <NavbarItem link="/Lesson2" content="Lesson2"/>
+        <NavbarItem link="/Lesson24" content="Lesson24"/>
         <NavbarItem link="/dialogs" content="Dialogs"/>
       </ul>
     </div>

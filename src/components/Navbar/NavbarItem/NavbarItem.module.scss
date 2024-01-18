@@ -1,16 +1,29 @@
 .navItem{
-  color: #fffce8;
-  font-size: 20px;
+  // color: #fffce8;
+  font-size: 17px;
   transition: all .3s;
-  margin-bottom: 15px;
   a{
-    color: #D3D3D3;
+    // color: #D3D3D3;
+    color: #ffffff;
     text-decoration: none;
     transition: all .3s;
     display: inline-block;
-  }
-  .activeLink{
-    transform: scale(1.2);
-    color: #ffffff;
+    position: relative;
+    &::after{
+      position: absolute;
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #ffffff;
+        left: 0;
+        bottom: -2px;
+        transition: .3s;
+    }
+    &.activeLink{
+      color: #ffffff;
+      &::after{
+        width: 100%;
+      }
+    }
   }
 }

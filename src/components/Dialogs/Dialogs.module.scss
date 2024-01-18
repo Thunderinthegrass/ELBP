@@ -1,10 +1,18 @@
-.dialogs{
+.dialogsWrapper{
   display: flex;
   padding-top: 30px;
 }
-.dialogsItems{
+.dialogs{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 .messages{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
 }

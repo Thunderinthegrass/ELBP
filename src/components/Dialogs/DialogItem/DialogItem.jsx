@@ -1,13 +1,12 @@
+import { NavLink } from 'react-router-dom';
 import classes from './DialogItem.module.scss';
 
-const DialogItem = () => {
+const DialogItem = (props) => {
   return (
-    <div className={classes.dialogs}>
-      <div className={classes.dialogsItems}>
-        
-      </div>
+    <div className={classes.dialog}>
+      <NavLink to={`dialogs/${props.id}`} className={({ isActive }) => isActive ? classes.activeLink : undefined} >{props.name}</NavLink>
     </div>
-  )
-}
+  );
+};
 
 export default DialogItem;
